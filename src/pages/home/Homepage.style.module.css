@@ -1,0 +1,25 @@
+.content {
+  margin: 0 auto;
+  width: 972px;
+}
+
+.title {
+  color: #18304b;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 8px;
+}
+
+.description {
+  color: #6c7881;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+@media (max-width: 960px) {
+  .content {
+    padding: 0 1.25rem;
+  }
+}

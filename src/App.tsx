@@ -6,7 +6,9 @@ import './App.css';
 function App() {
   return (
     <main>
-      <HomePage />
+      <div className="section">
+        <HomePage />
+      </div>
     </main>
   );
 }

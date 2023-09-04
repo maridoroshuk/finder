@@ -1,0 +1,23 @@
+.button_container {
+    background: transparent;
+    border: 0;
+    margin: 0 auto;
+    outline: 0;
+    padding: 0;
+}
+
+.show_button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #0271e1;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+}
