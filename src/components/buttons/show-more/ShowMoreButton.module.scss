@@ -1,0 +1,24 @@
+@import 'scss/variables';
+
+.button_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .show_button {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: $blue;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+  }
+}

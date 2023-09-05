@@ -1,12 +1,14 @@
 import React from 'react';
 import { HomePage } from 'pages/home/HomePage';
 
-import './App.css';
+import cn from './App.module.scss';
 
 function App() {
   return (
     <main>
-      <HomePage />
+      <div className={cn.section}>
+        <HomePage />
+      </div>
     </main>
   );
 }

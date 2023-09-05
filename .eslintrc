@@ -23,6 +23,7 @@
     },
     "plugins": ["@typescript-eslint", "react", "prettier", "react-hooks", "simple-import-sort"],
     "rules": {
+      "react/no-unescaped-entities": "off",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
       "comma-dangle": ["error", "only-multiline"],
