@@ -1,5 +1,3 @@
-import React from 'react';
-
 import cn from 'components/tile/Tile.module.scss';
 
 export const Tile = ({ tile: { title, image, url } }: TileProps) => {
