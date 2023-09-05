@@ -1,4 +1,3 @@
-import React from 'react';
 import { ShowMoreButton } from 'components/buttons/show-more/ShowMoreButton';
 import { Tile } from 'components/tile/Tile';
 import { useCollapse } from 'hooks/useCollapse';

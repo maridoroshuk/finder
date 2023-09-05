@@ -1,4 +1,3 @@
-import React from 'react';
 import { Tiles } from 'pages/home/tiles/Tiles';
 import { HomeTitle } from 'pages/home/title/HomeTitle';
 
