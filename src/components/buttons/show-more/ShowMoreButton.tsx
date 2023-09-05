@@ -7,7 +7,7 @@ import {
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import style from 'components/buttons/show-more/ShowMoreButton.style.module.css';
+import cn from 'components/buttons/show-more/ShowMoreButton.module.scss';
 
 export const ShowMoreButton = ({
   handleClick,
@@ -15,9 +15,10 @@ export const ShowMoreButton = ({
   children,
 }: ShowMoreButtonProps) => {
   const icon = !collapsed ? faChevronDown : faChevronUp;
+
   return (
-    <div className={style.button_container}>
-      <button type="button" onClick={handleClick} className={style.show_button}>
+    <div className={cn.button_container}>
+      <button type="button" onClick={handleClick} className={cn.show_button}>
         {children}
         <FontAwesomeIcon icon={icon as IconProp} />
       </button>

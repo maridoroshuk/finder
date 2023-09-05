@@ -1,12 +1,12 @@
 import React from 'react';
 
-import style from 'components/tile/Tile.style.module.css';
+import cn from 'components/tile/Tile.module.scss';
 
 export const Tile = ({ tile: { title, image, url } }: TileProps) => {
   return (
-    <a className={style.tile} href={url} target="_blank" rel="noreferrer">
+    <a className={cn.tile} href={url} target="_blank" rel="noreferrer">
       <img src={image} />
-      <h3 className={style.title}>{title}</h3>
+      <h3 className={cn.title}>{title}</h3>
     </a>
   );
 };

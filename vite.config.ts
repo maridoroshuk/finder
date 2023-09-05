@@ -10,6 +10,7 @@ export default defineConfig({
       pages: '/src/pages',
       _data: '/src/_data',
       hooks: '/src/hooks',
+      scss: '/src/scss',
     },
   },
 });
