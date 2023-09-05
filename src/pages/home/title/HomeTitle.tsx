@@ -1,5 +1,3 @@
-import React from 'react';
-
 import cn from 'pages/home/title/HomeTitle.module.scss';
 
 export const HomeTitle = () => {
